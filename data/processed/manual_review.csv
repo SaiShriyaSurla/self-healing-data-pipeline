@@ -1,0 +1,148 @@
+patient_id,member_id,source_a_name,source_b_name,source_a_email,source_b_email,source_a_phone,source_b_phone,source_a_dob,source_b_dob,name_score,address_score,email_match,phone_match,dob_match,match_score,match_status
+HOS-A-00001,CRM-B-00001,Tatiana Moreira,Tatiana Moreira,tatiana.moreira.1@examplehealth.org,,27990000001,27990000001,1954-02-02,1954-02-02,1.0,1.0,0.0,1.0,1.0,0.8,review
+HOS-A-00001-LEGACY,CRM-B-00001,Tatiana Moreira,Tatiana Moreira,tatiana.moreira.1@examplehealth.org,,27990000001,27990000001,1954-02-02,1954-02-02,1.0,1.0,0.0,1.0,1.0,0.8,review
+HOS-A-00006,CRM-B-00006,Luciana Santos,Luciana Santos,luciana.santos.6@examplehealth.org,,27990000006,27990000006,1940-07-07,1940-07-07,1.0,1.0,0.0,1.0,1.0,0.8,review
+HOS-A-00006-LEGACY,CRM-B-00006,Luciana Santos,Luciana Santos,luciana.santos.6@examplehealth.org,,27990000006,27990000006,1940-07-07,1940-07-07,1.0,1.0,0.0,1.0,1.0,0.8,review
+HOS-A-00011,CRM-B-00011,Monica Santos,Monica Santos,monica.santos.11@examplehealth.org,,27990000011,27990000011,1986-12-12,1986-12-12,1.0,1.0,0.0,1.0,1.0,0.8,review
+HOS-A-00011-LEGACY,CRM-B-00011,Monica Santos,Monica Santos,monica.santos.11@examplehealth.org,,27990000011,27990000011,1986-12-12,1986-12-12,1.0,1.0,0.0,1.0,1.0,0.8,review
+HOS-A-00027,CRM-B-00027,Tatiana Costa,Tatiana Costa,tatiana.costa.27@examplehealth.org,,27990000027,27990000027,1971-04-01,1971-04-01,1.0,1.0,0.0,1.0,1.0,0.8,review
+HOS-A-00041,CRM-B-00041,Larissa Rocha,Larissa Rocha,larissa.rocha.41@examplehealth.org,,27990000041,27990000041,1945-06-15,1945-06-15,1.0,1.0,0.0,1.0,1.0,0.8,review
+HOS-A-00042,CRM-B-00042,Leticia Moreira,Leticia Moreir,leticia.moreira.42@examplehealth.org,,27990000042,27990000042,1966-07-16,1966-07-16,0.966,1.0,0.0,1.0,1.0,0.79,review
+HOS-A-00045,CRM-B-00045,Priscila Pereira,Priscila Pereira,priscila.pereira.45@examplehealth.org,,27990000045,27990000045,1985-10-19,1985-10-19,1.0,1.0,0.0,1.0,1.0,0.8,review
+HOS-A-00047,CRM-B-00047,Luciana Gomes,Luciana Gome,luciana.gomes.47@examplehealth.org,,27990000047,27990000047,1977-12-21,1977-12-21,0.96,0.966,0.0,1.0,1.0,0.783,review
+HOS-A-00054,CRM-B-00054,Aline Barbosa,Aline Barbos,aline.barbosa.54@examplehealth.org,,27990000054,27990000054,2010-07-01,2010-07-01,0.96,1.0,0.0,1.0,1.0,0.788,review
+HOS-A-00062,CRM-B-00062,Bianca Barbosa,Bianca Barbosa,bianca.barbosa.62@examplehealth.org,,27990000062,27990000062,2013-03-09,2013-03-09,1.0,1.0,0.0,1.0,1.0,0.8,review
+HOS-A-00067,CRM-B-00067,Leticia Costa,Leticia Costa,leticia.costa.67@examplehealth.org,,27990000067,27990000067,2016-08-14,2016-08-14,1.0,1.0,0.0,1.0,1.0,0.8,review
+HOS-A-00074,CRM-B-00074,Gabriela Almeida Gomes,Gabriela Almeida Gomes,gabriela.almeida.74@examplehealth.org,,27990000074,27990000074,1952-03-21,1952-03-21,1.0,1.0,0.0,1.0,1.0,0.8,review
+HOS-A-00081,CRM-B-00081,Bianca Carvalho,Bianca Carvalho,bianca.carvalho.81@examplehealth.org,,27990000081,27990000081,1967-10-01,1967-10-01,1.0,1.0,0.0,1.0,1.0,0.8,review
+HOS-A-00107,CRM-B-00107,Juliana Nascimento,Juliana Nascimento,juliana.nascimento.107@examplehealth.org,,27990000107,27990000107,1990-12-27,1990-12-27,1.0,1.0,0.0,1.0,1.0,0.8,review
+HOS-A-00112,CRM-B-00112,Aline Carvalho,Aline Carvalho,aline.carvalho.112@examplehealth.org,,27990000112,27990000112,1957-05-05,1957-05-05,1.0,1.0,0.0,1.0,1.0,0.8,review
+HOS-A-00117,CRM-B-00117,Renata Almeida,Renata Almeida,renata.almeida.117@examplehealth.org,,27990000117,27990000117,1982-10-10,1982-10-10,1.0,1.0,0.0,1.0,1.0,0.8,review
+HOS-A-00144,CRM-B-00144,Joao Moreira,Joao Moreira,joao.moreira.144@examplehealth.org,,27990000144,27990000144,1966-01-10,1966-01-10,1.0,1.0,0.0,1.0,1.0,0.8,review
+HOS-A-00149,CRM-B-00149,Ana Santos Nascimento,Ana Santos Nascimento,ana.santos.149@examplehealth.org,,27990000149,27990000149,2000-06-15,2000-06-15,1.0,1.0,0.0,1.0,1.0,0.8,review
+HOS-A-00155,CRM-B-00155,Bianca Rodrigues,Bianca Rodrigues,bianca.rodrigues.155@examplehealth.org,,27990000155,27990000155,1975-12-21,1975-12-21,1.0,1.0,0.0,1.0,1.0,0.8,review
+HOS-A-00159,CRM-B-00159,Ana Silva,Ana Silva,ana.silva.159@examplehealth.org,,27990000159,27990000159,1958-04-25,1958-04-25,1.0,1.0,0.0,1.0,1.0,0.8,review
+HOS-A-00163,CRM-B-00163,Luciana Almeida,Luciana Almeida,luciana.almeida.163@examplehealth.org,,27990000163,27990000163,2000-08-02,2000-08-02,1.0,1.0,0.0,1.0,1.0,0.8,review
+HOS-A-00171,CRM-B-00171,Maria Costa,Maria Costa,maria.costa.171@examplehealth.org,,27990000171,27990000171,1999-04-10,1999-04-10,1.0,1.0,0.0,1.0,1.0,0.8,review
+HOS-A-00231,CRM-B-00231,Carla Gomes,Carla Gomes,carla.gomes.231@examplehealth.org,,27990000231,27990000231,2008-04-16,2008-04-16,1.0,1.0,0.0,1.0,1.0,0.8,review
+HOS-A-00235,CRM-B-00235,Eduardo Rocha,Eduardo Rocha,eduardo.rocha.235@examplehealth.org,,27990000235,27990000235,1979-08-20,1979-08-20,1.0,1.0,0.0,1.0,1.0,0.8,review
+HOS-A-00241,CRM-B-X00241,Mateus Araujo Carvalho,Mateus Araujo Carvalho,mateus.araujo.241@examplehealth.org,,27990000241,27990000241,1947-02-26,1947-02-26,1.0,1.0,0.0,1.0,1.0,0.8,review
+HOS-A-00256,CRM-B-00256,Juliana Fernandes,Juliana Fernandes,juliana.fernandes.256@examplehealth.org,,27990000256,27990000256,1941-05-14,1941-05-14,1.0,0.971,0.0,1.0,1.0,0.796,review
+HOS-A-00265,CRM-B-00265,Andre Martins,Andre Martins,andre.martins.265@examplehealth.org,,27990000265,27990000265,2016-02-23,2016-02-23,1.0,1.0,0.0,1.0,1.0,0.8,review
+HOS-A-00268,CRM-B-00268,Larissa Santos Rocha,Larissa Santos Rocha,larissa.santos.268@examplehealth.org,,27990000268,27990000268,1965-05-26,1965-05-26,1.0,0.971,0.0,1.0,1.0,0.796,review
+HOS-A-00269,CRM-B-00269,Juliana Lima,Juliana Lim,juliana.lima.269@examplehealth.org,,27990000269,27990000269,1971-06-27,1971-06-27,0.957,0.97,0.0,1.0,1.0,0.782,review
+HOS-A-00272,CRM-B-00272,Ana Pereira,Ana Pereira,ana.pereira.272@examplehealth.org,,27990000272,27990000272,1972-09-03,1972-09-03,1.0,1.0,0.0,1.0,1.0,0.8,review
+HOS-A-00281,CRM-B-00281,Carla Lima,Carla Lima,carla.lima.281@examplehealth.org,,27990000281,27990000281,2013-06-12,2013-06-12,1.0,1.0,0.0,1.0,1.0,0.8,review
+HOS-A-00313,CRM-B-00313,Leticia Pereira,Leticia Pereira,leticia.pereira.313@examplehealth.org,,27990000313,27990000313,1981-02-17,1981-02-17,1.0,0.968,0.0,1.0,1.0,0.795,review
+HOS-A-00332,CRM-B-00332,Carlos Teixeira,Carlos Teixeira,carlos.teixeira.332@examplehealth.org,,27990000332,27990000332,1965-09-09,1965-09-09,1.0,1.0,0.0,1.0,1.0,0.8,review
+HOS-A-00333,CRM-B-00333,Patricia Rocha,Patricia Rocha,patricia.rocha.333@examplehealth.org,,27990000333,27990000333,1994-10-10,1994-10-10,1.0,1.0,0.0,1.0,1.0,0.8,review
+HOS-A-00334,CRM-B-00334,Marcos Gomes,Marcos Gomes,marcos.gomes.334@examplehealth.org,,27990000334,27990000334,1997-11-11,1997-11-11,1.0,1.0,0.0,1.0,1.0,0.8,review
+HOS-A-00336,CRM-B-00336,Luciana Barbosa,Luciana Barbosa,luciana.barbosa.336@examplehealth.org,,27990000336,27990000336,2008-01-13,2008-01-13,1.0,1.0,0.0,1.0,1.0,0.8,review
+HOS-A-00338,CRM-B-00338,Eduardo Moreira,Eduardo Moreir,eduardo.moreira.338@examplehealth.org,,27990000338,27990000338,1965-03-15,1965-03-15,0.966,1.0,0.0,1.0,1.0,0.79,review
+HOS-A-00355,CRM-B-00355,Rodrigo Carvalho,Rodrigo Carvalho,rodrigo.carvalho.355@examplehealth.org,,27990000355,27990000355,2015-08-05,2015-08-05,1.0,1.0,0.0,1.0,1.0,0.8,review
+HOS-A-00365,CRM-B-00365,Tatiana Nascimento,Tatiana Nascimento,tatiana.nascimento.365@examplehealth.org,,27990000365,27990000365,1982-06-15,1982-06-15,1.0,1.0,0.0,1.0,1.0,0.8,review
+HOS-A-00370,CRM-B-00370,Camila Gomes,Camila Gomes,camila.gomes.370@examplehealth.org,,27990000370,27990000370,1987-11-20,1987-11-20,1.0,1.0,0.0,1.0,1.0,0.8,review
+HOS-A-00373,CRM-B-00373,Aline Fernandes Moreira,Aline Fernandes Moreir,aline.fernandes.373@examplehealth.org,,27990000373,27990000373,1993-02-23,1993-02-23,0.978,1.0,0.0,1.0,1.0,0.793,review
+HOS-A-00377,CRM-B-00377,Aline Martins,Aline Martins,aline.martins.377@examplehealth.org,,27990000377,27990000377,1960-06-27,1960-06-27,1.0,1.0,0.0,1.0,1.0,0.8,review
+HOS-A-00378,CRM-B-00378,Aline Gomes Lima,Aline Gomes Lima,aline.gomes.378@examplehealth.org,,27990000378,27990000378,1975-07-01,1975-07-01,1.0,1.0,0.0,1.0,1.0,0.8,review
+HOS-A-00379,CRM-B-00379,Camila Pereira,Camila Pereira,camila.pereira.379@examplehealth.org,,27990000379,27990000379,1947-08-02,1947-08-02,1.0,1.0,0.0,1.0,1.0,0.8,review
+HOS-A-00384,CRM-B-00384,Carla Araujo Souza,Carla Araujo Souza,carla.araujo.384@examplehealth.org,,27990000384,27990000384,1998-01-07,1998-01-07,1.0,1.0,0.0,1.0,1.0,0.8,review
+HOS-A-00388,CRM-B-00388,Luciana Costa,Luciana Costa,luciana.costa.388@examplehealth.org,,27990000388,27990000388,1973-05-11,1973-05-11,1.0,1.0,0.0,1.0,1.0,0.8,review
+HOS-A-00389,CRM-B-00389,Juliana Almeida,Juliana Almeida,juliana.almeida.389@examplehealth.org,,27990000389,27990000389,1963-06-12,1963-06-12,1.0,1.0,0.0,1.0,1.0,0.8,review
+HOS-A-00393,CRM-B-00393,Leticia Silva,Leticia Silva,leticia.silva.393@examplehealth.org,,27990000393,27990000393,1996-10-16,1996-10-16,1.0,1.0,0.0,1.0,1.0,0.8,review
+HOS-A-00414,CRM-B-00414,Daniela Rodrigues Fernandes,Daniela Rodrigues Fernandes,daniela.rodrigues.414@examplehealth.org,,27990000414,27990000414,2009-07-10,2009-07-10,1.0,1.0,0.0,1.0,1.0,0.8,review
+HOS-A-00429,CRM-B-00429,Eduardo Fernandes Oliveira,Eduardo Fernandes Oliveira,eduardo.fernandes.429@examplehealth.org,,27990000429,27990000429,2003-10-25,2003-10-25,1.0,1.0,0.0,1.0,1.0,0.8,review
+HOS-A-00448,CRM-B-00448,Maria Rocha,Maria Roca,maria.rocha.448@examplehealth.org,,27990000448,27990000448,1950-05-17,1950-05-17,0.952,1.0,0.0,1.0,1.0,0.786,review
+HOS-A-00453,CRM-B-00453,Daniela Gomes Rocha,Daniela Gomes Rocha,daniela.gomes.453@examplehealth.org,,27990000453,27990000453,1982-10-22,1982-10-22,1.0,1.0,0.0,1.0,1.0,0.8,review
+HOS-A-00461,CRM-B-00461,Vanessa Fernandes,Vanessa Fernandes,vanessa.fernandes.461@examplehealth.org,,27990000461,27990000461,1979-06-03,1979-06-03,1.0,1.0,0.0,1.0,1.0,0.8,review
+HOS-A-00480,CRM-B-00480,Camila Gomes Fernandes,Camila Gomes Fernandes,camila.gomes.480@examplehealth.org,,27990000480,27990000480,2004-01-22,2004-01-22,1.0,0.971,0.0,1.0,1.0,0.796,review
+HOS-A-00487,CRM-B-00487,Fernando Rocha,Fernando Roca,fernando.rocha.487@examplehealth.org,,27990000487,27990000487,1985-08-02,1985-08-02,0.963,1.0,0.0,1.0,1.0,0.789,review
+HOS-A-00488,CRM-B-00488,Bruno Fernandes,Bruno Fernandes,bruno.fernandes.488@examplehealth.org,,27990000488,27990000488,2014-09-03,2014-09-03,1.0,1.0,0.0,1.0,1.0,0.8,review
+HOS-A-00495,CRM-B-00495,Luciana Fernandes,Luciana Fernandes,luciana.fernandes.495@examplehealth.org,,27990000495,27990000495,1995-04-10,1995-04-10,1.0,1.0,0.0,1.0,1.0,0.8,review
+HOS-A-00505,CRM-B-00505,Lucas Rocha,Lucas Rocha,lucas.rocha.505@examplehealth.org,,27990000505,27990000505,2014-02-20,2014-02-20,1.0,1.0,0.0,1.0,1.0,0.8,review
+HOS-A-00510,CRM-B-00510,Leandro Rodrigues,Leandro Rodrigues,leandro.rodrigues.510@examplehealth.org,,27990000510,27990000510,1933-07-25,1933-07-25,1.0,1.0,0.0,1.0,1.0,0.8,review
+HOS-A-00522,CRM-B-00522,Joao Rodrigues,Joao Rodrigues,joao.rodrigues.522@examplehealth.org,,27990000522,27990000522,2014-07-10,2014-07-10,1.0,0.966,0.0,1.0,1.0,0.795,review
+HOS-A-00544,CRM-B-00544,Leandro Teixeira,Leandro Teixeira,leandro.teixeira.544@examplehealth.org,,27990000544,27990000544,1952-05-05,1952-05-05,1.0,0.971,0.0,1.0,1.0,0.796,review
+HOS-A-00546,CRM-B-00546,Bruno Almeida,Bruno Almeida,bruno.almeida.546@examplehealth.org,,27990000546,27990000546,1993-07-07,1993-07-07,1.0,1.0,0.0,1.0,1.0,0.8,review
+HOS-A-00547,CRM-B-00547,Fernanda Dias Moreira,Fernanda Dias Moreira,fernanda.dias.547@examplehealth.org,,27990000547,27990000547,1954-08-08,1954-08-08,1.0,1.0,0.0,1.0,1.0,0.8,review
+HOS-A-00552,CRM-B-00552,Marcos Santos,Marcos Santos,marcos.santos.552@examplehealth.org,,27990000552,27990000552,1972-01-13,1972-01-13,1.0,1.0,0.0,1.0,1.0,0.8,review
+HOS-A-00553,CRM-B-00553,Fernanda Almeida,Fernanda Almeida,fernanda.almeida.553@examplehealth.org,,27990000553,27990000553,1977-02-14,1977-02-14,1.0,1.0,0.0,1.0,1.0,0.8,review
+HOS-A-00556,CRM-B-00556,Daniela Costa,Daniela Costa,daniela.costa.556@examplehealth.org,,27990000556,27990000556,1979-05-17,1979-05-17,1.0,1.0,0.0,1.0,1.0,0.8,review
+HOS-A-00560,CRM-B-00560,Larissa Martins,Larissa Martins,larissa.martins.560@examplehealth.org,,27990000560,27990000560,1962-09-21,1962-09-21,1.0,1.0,0.0,1.0,1.0,0.8,review
+HOS-A-00562,CRM-B-00562,Leandro Araujo Santos,Leandro Araujo Santos,leandro.araujo.562@examplehealth.org,,27990000562,27990000562,1945-11-23,1945-11-23,1.0,1.0,0.0,1.0,1.0,0.8,review
+HOS-A-00574,CRM-B-X00574,Larissa Carvalho,Larissa Carvalho,larissa.carvalho.574@examplehealth.org,,27990000574,27990000574,1958-11-08,1958-11-08,1.0,1.0,0.0,1.0,1.0,0.8,review
+HOS-A-00591,CRM-B-00591,Vinicius Oliveira,Vinicius Oliveir,vinicius.oliveira.591@examplehealth.org,,27990000591,27990000591,1969-04-25,1969-04-25,0.97,1.0,0.0,1.0,1.0,0.791,review
+HOS-A-00594,CRM-B-00594,Tatiana Barbosa Rocha,Tatiana Barbosa Rocha,tatiana.barbosa.594@examplehealth.org,,27990000594,27990000594,2009-07-01,2009-07-01,1.0,1.0,0.0,1.0,1.0,0.8,review
+HOS-A-00595,CRM-B-00595,Mateus Rodrigues,Mateus Rodrigues,mateus.rodrigues.595@examplehealth.org,,27990000595,27990000595,1960-08-02,1960-08-02,1.0,0.97,0.0,1.0,1.0,0.795,review
+HOS-A-00602,CRM-B-00602,Leticia Gomes,Leticia Gomes,leticia.gomes.602@examplehealth.org,,27990000602,27990000602,1989-03-09,1989-03-09,1.0,1.0,0.0,1.0,1.0,0.8,review
+HOS-A-00622,CRM-B-00622,Vanessa Lima,Vanessa Lima,vanessa.lima.622@examplehealth.org,,27990000622,27990000622,1960-11-02,1960-11-02,1.0,1.0,0.0,1.0,1.0,0.8,review
+HOS-A-00631,CRM-B-00631,Felipe Oliveira,Felipe Oliveira,felipe.oliveira.631@examplehealth.org,,27990000631,27990000631,1962-08-11,1962-08-11,1.0,1.0,0.0,1.0,1.0,0.8,review
+HOS-A-00639,CRM-B-00639,Tatiana Dias,Tatiana Dia,tatiana.dias.639@examplehealth.org,,27990000639,27990000639,1973-04-19,1973-04-19,0.957,0.976,0.0,1.0,1.0,0.783,review
+HOS-A-00662,CRM-B-00662,Vanessa Oliveira,Vanessa Oliveira,vanessa.oliveira.662@examplehealth.org,,27990000662,27990000662,1959-03-15,1959-03-15,1.0,1.0,0.0,1.0,1.0,0.8,review
+HOS-A-00665,CRM-B-00665,Carla Barbosa,Carla Barbosa,carla.barbosa.665@examplehealth.org,,27990000665,27990000665,1947-06-18,1947-06-18,1.0,0.97,0.0,1.0,1.0,0.795,review
+HOS-A-00674,CRM-B-00674,Joao Araujo,Joao Araujo,joao.araujo.674@examplehealth.org,,27990000674,27990000674,1966-03-27,1966-03-27,1.0,1.0,0.0,1.0,1.0,0.8,review
+HOS-A-00687,CRM-B-00687,Beatriz Dias,Beatriz Dia,beatriz.dias.687@examplehealth.org,,27990000687,27990000687,1984-04-13,1984-04-13,0.957,1.0,0.0,1.0,1.0,0.787,review
+HOS-A-00690,CRM-B-00690,Daniela Almeida,Daniela Almeida,daniela.almeida.690@examplehealth.org,,27990000690,27990000690,1952-07-16,1952-07-16,1.0,1.0,0.0,1.0,1.0,0.8,review
+HOS-A-00712,CRM-B-00712,Vanessa Santos,Vanessa Santos,vanessa.santos.712@examplehealth.org,,27990000712,27990000712,2001-05-11,2001-05-11,1.0,1.0,0.0,1.0,1.0,0.8,review
+HOS-A-00719,CRM-B-00719,Priscila Dias,Priscila Dias,priscila.dias.719@examplehealth.org,,27990000719,27990000719,2008-12-18,2008-12-18,1.0,1.0,0.0,1.0,1.0,0.8,review
+HOS-A-00721,CRM-B-00721,Vinicius Costa Barbosa,Vinicius Costa Barbosa,vinicius.costa.721@examplehealth.org,,27990000721,27990000721,2011-02-20,2011-02-20,1.0,0.968,0.0,1.0,1.0,0.795,review
+HOS-A-00735,CRM-B-00735,Fernanda Souza Gomes,Fernanda Souza Gomes,fernanda.souza.735@examplehealth.org,,27990000735,27990000735,1953-04-07,1953-04-07,1.0,1.0,0.0,1.0,1.0,0.8,review
+HOS-A-00747,CRM-B-00747,Maria Teixeira,Maria Teixeira,maria.teixeira.747@examplehealth.org,,27990000747,27990000747,1947-04-19,1947-04-19,1.0,1.0,0.0,1.0,1.0,0.8,review
+HOS-A-00748,CRM-B-00748,Bruno Santos,Bruno Santos,bruno.santos.748@examplehealth.org,,27990000748,27990000748,1968-05-20,1968-05-20,1.0,0.971,0.0,1.0,1.0,0.796,review
+HOS-A-00749,CRM-B-00749,Ana Souza,Ana Souz,ana.souza.749@examplehealth.org,,27990000749,27990000749,1988-06-21,1988-06-21,0.941,1.0,0.0,1.0,1.0,0.782,review
+HOS-A-00756,CRM-B-00756,Maria Santos,Maria Santos,maria.santos.756@examplehealth.org,,27990000756,27990000756,1964-01-01,1964-01-01,1.0,1.0,0.0,1.0,1.0,0.8,review
+HOS-A-00783,CRM-B-00783,Carla Barbosa,Carla Barbosa,carla.barbosa.783@examplehealth.org,,27990000783,27990000783,1959-04-01,1959-04-01,1.0,1.0,0.0,1.0,1.0,0.8,review
+HOS-A-00785,CRM-B-00785,Luciana Lima Nascimento,Luciana Lima Nascimento,luciana.lima.785@examplehealth.org,,27990000785,27990000785,1997-06-03,1997-06-03,1.0,1.0,0.0,1.0,1.0,0.8,review
+HOS-A-00790,CRM-B-00790,Rafael Dias,Rafael Dias,rafael.dias.790@examplehealth.org,,27990000790,27990000790,1969-11-08,1969-11-08,1.0,1.0,0.0,1.0,1.0,0.8,review
+HOS-A-00811,CRM-B-00811,Bianca Araujo Rodrigues,Bianca Araujo Rodrigues,bianca.araujo.811@examplehealth.org,,27990000811,27990000811,1957-08-02,1957-08-02,1.0,1.0,0.0,1.0,1.0,0.8,review
+HOS-A-00819,CRM-B-00819,Vanessa Teixeira Pereira,Vanessa Teixeira Pereir,vanessa.teixeira.819@examplehealth.org,,27990000819,27990000819,1951-04-10,1951-04-10,0.979,1.0,0.0,1.0,1.0,0.794,review
+HOS-A-00830,CRM-B-00830,Bianca Costa,Bianca Costa,bianca.costa.830@examplehealth.org,,27990000830,27990000830,1991-03-21,1991-03-21,1.0,1.0,0.0,1.0,1.0,0.8,review
+HOS-A-00833,CRM-B-00833,Marcos Teixeira,Marcos Teixeira,marcos.teixeira.833@examplehealth.org,,27990000833,27990000833,1968-06-24,1968-06-24,1.0,1.0,0.0,1.0,1.0,0.8,review
+HOS-A-00835,CRM-B-00835,Andre Dias,Andre Dias,andre.dias.835@examplehealth.org,,27990000835,27990000835,1977-08-26,1977-08-26,1.0,1.0,0.0,1.0,1.0,0.8,review
+HOS-A-00850,CRM-B-00850,Joao Gomes Pereira,Joao Gomes Pereira,joao.gomes.850@examplehealth.org,,27990000850,27990000850,2016-11-14,2016-11-14,1.0,1.0,0.0,1.0,1.0,0.8,review
+HOS-A-00861,CRM-B-00861,Luciana Carvalho Nascimento,Luciana Carvalho Nascimento,luciana.carvalho.861@examplehealth.org,,27990000861,27990000861,1988-10-25,1988-10-25,1.0,1.0,0.0,1.0,1.0,0.8,review
+HOS-A-00867,CRM-B-00867,Gabriela Costa,Gabriela Costa,gabriela.costa.867@examplehealth.org,,27990000867,27990000867,1972-04-04,1972-04-04,1.0,1.0,0.0,1.0,1.0,0.8,review
+HOS-A-00889,CRM-B-00889,Rafael Nascimento,Rafael Nascimento,rafael.nascimento.889@examplehealth.org,,27990000889,27990000889,1954-02-26,1954-02-26,1.0,1.0,0.0,1.0,1.0,0.8,review
+HOS-A-00891,CRM-B-00891,Gabriela Costa,Gabriela Costa,gabriela.costa.891@examplehealth.org,,27990000891,27990000891,1979-04-01,1979-04-01,1.0,1.0,0.0,1.0,1.0,0.8,review
+HOS-A-00910,CRM-B-00910,Priscila Fernandes,Priscila Fernandes,priscila.fernandes.910@examplehealth.org,,27990000910,27990000910,1939-11-20,1939-11-20,1.0,1.0,0.0,1.0,1.0,0.8,review
+HOS-A-00913,CRM-B-X00913,Felipe Rodrigues,Felipe Rodrigues,felipe.rodrigues.913@examplehealth.org,,27990000913,27990000913,1932-02-23,1932-02-23,1.0,1.0,0.0,1.0,1.0,0.8,review
+HOS-A-00914,CRM-B-00914,Tatiana Santos,Tatiana Santos,tatiana.santos.914@examplehealth.org,,27990000914,27990000914,1928-03-24,1928-03-24,1.0,1.0,0.0,1.0,1.0,0.8,review
+HOS-A-00955,CRM-B-00955,Eduardo Rodrigues,Eduardo Rodrigue,eduardo.rodrigues.955@examplehealth.org,,27990000955,27990000955,1953-08-11,1953-08-11,0.97,1.0,0.0,1.0,1.0,0.791,review
+HOS-A-00958,CRM-B-00958,Priscila Carvalho Rocha,Priscila Carvalho Rocha,priscila.carvalho.958@examplehealth.org,,27990000958,27990000958,1963-11-14,1963-11-14,1.0,1.0,0.0,1.0,1.0,0.8,review
+HOS-A-00960,CRM-B-00960,Andre Fernandes,Andre Fernandes,andre.fernandes.960@examplehealth.org,,27990000960,27990000960,1990-01-16,1990-01-16,1.0,1.0,0.0,1.0,1.0,0.8,review
+HOS-A-00964,CRM-B-00964,Marcos Nascimento,Marcos Nascimento,marcos.nascimento.964@examplehealth.org,,27990000964,27990000964,1977-05-20,1977-05-20,1.0,1.0,0.0,1.0,1.0,0.8,review
+HOS-A-00983,CRM-B-00983,Renata Teixeira,Renata Teixeira,renata.teixeira.983@examplehealth.org,,27990000983,27990000983,1990-12-12,1990-12-12,1.0,0.966,0.0,1.0,1.0,0.795,review
+HOS-A-00986,CRM-B-00986,Vinicius Pereira,Vinicius Pereira,vinicius.pereira.986@examplehealth.org,,27990000986,27990000986,1957-03-15,1957-03-15,1.0,0.963,0.0,1.0,1.0,0.794,review
+HOS-A-00989,CRM-B-00989,Lucas Santos Silva,Lucas Santos Silva,lucas.santos.989@examplehealth.org,,27990000989,27990000989,1955-06-18,1955-06-18,1.0,1.0,0.0,1.0,1.0,0.8,review
+HOS-A-01025,CRM-B-01025,Andre Fernandes Santos,Andre Fernandes Santos,andre.fernandes.1025@examplehealth.org,,27990001025,27990001025,2015-06-27,2015-06-27,1.0,1.0,0.0,1.0,1.0,0.8,review
+HOS-A-01030,CRM-B-X01030,Aline Dias,Aline Dias,aline.dias.1030@examplehealth.org,,27990001030,27990001030,1981-11-05,1981-11-05,1.0,1.0,0.0,1.0,1.0,0.8,review
+HOS-A-01033,CRM-B-01033,Carla Barbosa Gomes,Carla Barbosa Gomes,carla.barbosa.1033@examplehealth.org,,27990001033,27990001033,2014-02-08,2014-02-08,1.0,0.968,0.0,1.0,1.0,0.795,review
+HOS-A-01040,CRM-B-01040,Patricia Teixeira,Patricia Teixeir,patricia.teixeira.1040@examplehealth.org,,27990001040,27990001040,1979-09-15,1979-09-15,0.97,1.0,0.0,1.0,1.0,0.791,review
+HOS-A-01047,CRM-B-01047,Gabriela Araujo,Gabriela Arauj,gabriela.araujo.1047@examplehealth.org,,27990001047,27990001047,1984-04-22,1984-04-22,0.966,1.0,0.0,1.0,1.0,0.79,review
+HOS-A-01052,CRM-B-01052,Bruno Martins,Bruno Martins,bruno.martins.1052@examplehealth.org,,27990001052,27990001052,1947-09-27,1947-09-27,1.0,1.0,0.0,1.0,1.0,0.8,review
+HOS-A-01055,CRM-B-01055,Juliana Nascimento,Juliana Nascimento,juliana.nascimento.1055@examplehealth.org,,27990001055,27990001055,1955-12-03,1955-12-03,1.0,1.0,0.0,1.0,1.0,0.8,review
+HOS-A-01058,CRM-B-01058,Ricardo Costa,Ricardo Costa,ricardo.costa.1058@examplehealth.org,,27990001058,27990001058,1946-03-06,1946-03-06,1.0,1.0,0.0,1.0,1.0,0.8,review
+HOS-A-01063,CRM-B-01063,Ricardo Martins,Ricardo Martins,ricardo.martins.1063@examplehealth.org,,27990001063,27990001063,1995-08-11,1995-08-11,1.0,1.0,0.0,1.0,1.0,0.8,review
+HOS-A-01064,CRM-B-01064,Renata Oliveira Oliveira,Renata Oliveira Oliveira,renata.oliveira.1064@examplehealth.org,,27990001064,27990001064,1965-09-12,1965-09-12,1.0,1.0,0.0,1.0,1.0,0.8,review
+HOS-A-01069,CRM-B-01069,Fernando Fernandes,Fernando Fernandes,fernando.fernandes.1069@examplehealth.org,,27990001069,27990001069,2009-02-17,2009-02-17,1.0,1.0,0.0,1.0,1.0,0.8,review
+HOS-A-01072,CRM-B-01072,Daniela Rocha Fernandes,Daniela Rocha Fernandes,daniela.rocha.1072@examplehealth.org,,27990001072,27990001072,1978-05-20,1978-05-20,1.0,1.0,0.0,1.0,1.0,0.8,review
+HOS-A-01073,CRM-B-01073,Carlos Carvalho,Carlos Carvalho,carlos.carvalho.1073@examplehealth.org,,27990001073,27990001073,1983-06-21,1983-06-21,1.0,1.0,0.0,1.0,1.0,0.8,review
+HOS-A-01085,CRM-B-01085,Patricia Oliveira,Patricia Oliveira,patricia.oliveira.1085@examplehealth.org,,27990001085,27990001085,2016-06-06,2016-06-06,1.0,1.0,0.0,1.0,1.0,0.8,review
+HOS-A-01087,CRM-B-01087,Carlos Pereira,Carlos Pereira,carlos.pereira.1087@examplehealth.org,,27990001087,27990001087,2012-08-08,2012-08-08,1.0,0.97,0.0,1.0,1.0,0.795,review
+HOS-A-01093,CRM-B-01093,Diego Fernandes Almeida,Diego Fernandes Almeida,diego.fernandes.1093@examplehealth.org,,27990001093,27990001093,1996-02-14,1996-02-14,1.0,1.0,0.0,1.0,1.0,0.8,review
+HOS-A-01094,CRM-B-01094,Gabriela Almeida,Gabriela Almeida,gabriela.almeida.1094@examplehealth.org,,27990001094,27990001094,1988-03-15,1988-03-15,1.0,1.0,0.0,1.0,1.0,0.8,review
+HOS-A-01104,CRM-B-01104,Beatriz Silva,Beatriz Silv,beatriz.silva.1104@examplehealth.org,,27990001104,27990001104,1985-01-25,1985-01-25,0.96,1.0,0.0,1.0,1.0,0.788,review
+HOS-A-01124,CRM-B-01124,Alex Martins Souza,Alex Martins Souza,alex.martins.1124@examplehealth.org,,27990001124,27990001124,2011-09-18,2011-09-18,1.0,1.0,0.0,1.0,1.0,0.8,review
+HOS-A-01132,CRM-B-01132,Marcos Oliveira,Marcos Oliveira,marcos.oliveira.1132@examplehealth.org,,27990001132,27990001132,2016-05-26,2016-05-26,1.0,1.0,0.0,1.0,1.0,0.8,review
+HOS-A-01133,CRM-B-01133,Luciana Souza,Luciana Souz,luciana.souza.1133@examplehealth.org,,27990001133,27990001133,2000-06-27,2000-06-27,0.96,1.0,0.0,1.0,1.0,0.788,review
+HOS-A-01134,CRM-B-01134,Leticia Moreira,Leticia Moreira,leticia.moreira.1134@examplehealth.org,,27990001134,27990001134,2014-07-01,2014-07-01,1.0,1.0,0.0,1.0,1.0,0.8,review
+HOS-A-01139,CRM-B-01139,Luciana Silva,Luciana Silv,luciana.silva.1139@examplehealth.org,,27990001139,27990001139,2016-12-06,2016-12-06,0.96,1.0,0.0,1.0,1.0,0.788,review
+HOS-A-01145,CRM-B-01145,Bruno Araujo,Bruno Araujo,bruno.araujo.1145@examplehealth.org,,27990001145,27990001145,2006-06-12,2006-06-12,1.0,1.0,0.0,1.0,1.0,0.8,review
+HOS-A-01148,CRM-B-01148,Eduardo Santos Rocha,Eduardo Santos Rocha,eduardo.santos.1148@examplehealth.org,,27990001148,27990001148,2000-09-15,2000-09-15,1.0,1.0,0.0,1.0,1.0,0.8,review
+HOS-A-01156,CRM-B-01156,Priscila Martins,Priscila Martins,priscila.martins.1156@examplehealth.org,,27990001156,27990001156,2014-05-23,2014-05-23,1.0,1.0,0.0,1.0,1.0,0.8,review
+HOS-A-01157,CRM-B-01157,Fernando Fernandes,Fernando Fernandes,fernando.fernandes.1157@examplehealth.org,,27990001157,27990001157,2014-06-24,2014-06-24,1.0,1.0,0.0,1.0,1.0,0.8,review
+HOS-A-01158,CRM-B-01158,Bianca Fernandes Santos,Bianca Fernandes Santos,bianca.fernandes.1158@examplehealth.org,,27990001158,27990001158,2000-07-25,2000-07-25,1.0,1.0,0.0,1.0,1.0,0.8,review
+HOS-A-01163,CRM-B-01163,Gabriela Lima,Gabriela Lima,gabriela.lima.1163@examplehealth.org,,27990001163,27990001163,2014-12-03,2014-12-03,1.0,1.0,0.0,1.0,1.0,0.8,review
+HOS-A-01166,CRM-B-01166,Monica Moreira,Monica Moreira,monica.moreira.1166@examplehealth.org,,27990001166,27990001166,1984-03-06,1984-03-06,1.0,0.963,0.0,1.0,1.0,0.794,review
+HOS-A-01198,CRM-B-01198,Vanessa Silva,Vanessa Silva,vanessa.silva.1198@examplehealth.org,,27990001198,27990001198,1999-11-11,1999-11-11,1.0,1.0,0.0,1.0,1.0,0.8,review
+HOS-A-01199,CRM-B-01199,Carla Gomes,Carla Gomes,carla.gomes.1199@examplehealth.org,,27990001199,27990001199,2014-12-12,2014-12-12,1.0,1.0,0.0,1.0,1.0,0.8,review
