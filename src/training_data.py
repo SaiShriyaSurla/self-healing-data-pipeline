@@ -106,6 +106,23 @@ def main() -> None:
     validation_df.to_csv(PROCESSED_DIR / "validation.csv", index=False)
     batch_input.to_csv(PROCESSED_DIR / "batch_input.csv", index=False)
 
+    feature_columns = [
+        "name_score",
+        "address_score",
+        "email_match",
+        "phone_match",
+        "dob_match",
+    ]
+
+    train_xgb = train_df[["label"] + feature_columns].copy()
+    validation_xgb = validation_df[["label"] + feature_columns].copy()
+    batch_input_xgb = batch_input[feature_columns].copy()
+
+    train_xgb.to_csv(PROCESSED_DIR / "train_xgb.csv", index=False, header=False)
+    validation_xgb.to_csv(PROCESSED_DIR / "validation_xgb.csv", index=False, header=False)
+    batch_input_xgb.to_csv(PROCESSED_DIR / "batch_input_xgb.csv", index=False, header=False)
+
+
     print("Train rows:", len(train_df))
     print("Validation rows:", len(validation_df))
     print("Batch input rows:", len(batch_input))
