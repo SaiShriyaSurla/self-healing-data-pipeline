@@ -199,7 +199,7 @@ What to show in the demo:
 
 ## SageMaker Direction
 
-The local MVP is designed to map into Amazon SageMaker in the next phase:
+The project now includes a real SageMaker preprocessing step and is designed to expand further into a full SageMaker workflow:
 
 - `SageMaker Processing` for validation and normalization
 - `SageMaker Training` for record linkage model training
@@ -218,6 +218,16 @@ The current implementation runs locally as a modular pipeline:
 - `merge.py` creates a unified patient index from high-confidence matches
 - `report.py` produces a reconciliation summary and manual review queue
 - `pipeline.py` orchestrates the full flow end to end
+
+### Implemented SageMaker Workflow
+
+The project now includes a real SageMaker Processing integration:
+
+1. Raw reconciliation input files are uploaded to Amazon S3
+2. A SageMaker Processing job runs validation and normalization using a Python preprocessing script
+3. Prepared source files and a validation report are written back to S3
+
+This means the project is no longer only SageMaker-designed. It already uses SageMaker for batch preprocessing in a real AWS environment.
 
 ### Target SageMaker Workflow
 
