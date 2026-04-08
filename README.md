@@ -136,6 +136,13 @@ Data quality findings captured in validation:
 - blank patient references in appointments
 - orphan patient references in appointments
 
+SageMaker model training results:
+
+- trained a SageMaker XGBoost record-linkage model on engineered pairwise matching features
+- training rows: `1920`
+- validation rows: `480`
+- validation AUC: `0.99796`
+
 ## Project Structure
 
 ```text
@@ -199,7 +206,7 @@ What to show in the demo:
 
 ## SageMaker Direction
 
-The project now includes a real SageMaker preprocessing step and is designed to expand further into a full SageMaker workflow:
+The project now includes real SageMaker preprocessing and training steps, with batch inference prepared as the next deployment stage:
 
 - `SageMaker Processing` for validation and normalization
 - `SageMaker Training` for record linkage model training
@@ -221,13 +228,20 @@ The current implementation runs locally as a modular pipeline:
 
 ### Implemented SageMaker Workflow
 
-The project now includes a real SageMaker Processing integration:
+The project now includes real SageMaker Processing and Training integrations:
 
 1. Raw reconciliation input files are uploaded to Amazon S3
 2. A SageMaker Processing job runs validation and normalization using a Python preprocessing script
 3. Prepared source files and a validation report are written back to S3
+4. Pairwise training features are generated locally and uploaded to S3
+5. A SageMaker XGBoost training job is used to train a binary record-linkage model
+6. The trained model artifact is written back to S3
 
-This means the project is no longer only SageMaker-designed. It already uses SageMaker for batch preprocessing in a real AWS environment.
+This means the project is no longer only SageMaker-designed. It already uses SageMaker for preprocessing and model training in a real AWS environment.
+
+### Batch Inference Status
+
+The project includes prepared batch inference inputs and SageMaker Batch Transform job configuration, but full SageMaker Batch Transform execution is currently blocked by account-level transform job quota limits in the AWS account used for development.
 
 ### Target SageMaker Workflow
 
