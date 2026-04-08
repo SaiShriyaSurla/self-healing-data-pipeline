@@ -49,7 +49,6 @@ The derived files intentionally include realistic data quality issues:
 
 ## Implementation
 
-
 Implemented modules:
 
 - `src/validate.py`
@@ -57,6 +56,8 @@ Implemented modules:
 - `src/match.py`
 - `src/merge.py`
 - `src/report.py`
+- `src/pipeline.py`
+- `app/app.py`
 
 ## Pipeline Flow
 
@@ -162,11 +163,7 @@ From the project root:
 python3 -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
-python src/validate.py
-python src/features.py
-python src/match.py
-python src/merge.py
-python src/report.py
+python src/pipeline.py
 ```
 
 ## Output Files
@@ -178,6 +175,28 @@ Generated artifacts:
 - `data/processed/manual_review.csv`
 - `data/processed/reconciliation_report.json`
 
+## How To Demo
+
+Run the full reconciliation pipeline:
+
+```bash
+python src/pipeline.py
+```
+
+Launch the Streamlit dashboard:
+
+```bash
+streamlit run app/app.py
+```
+
+What to show in the demo:
+
+- top-level reconciliation metrics
+- data quality findings across source systems
+- auto-matched patient records
+- manual review queue for uncertain matches
+- unified patient index generated from high-confidence matches
+
 ## SageMaker Direction
 
 The local MVP is designed to map into Amazon SageMaker in the next phase:
@@ -186,6 +205,74 @@ The local MVP is designed to map into Amazon SageMaker in the next phase:
 - `SageMaker Training` for record linkage model training
 - `Batch Transform` for scoring new incoming records
 - `SageMaker Experiments` for comparing matching strategies
+
+## SageMaker Architecture
+
+### Current Local Workflow
+
+The current implementation runs locally as a modular pipeline:
+
+- `validate.py` profiles source data and identifies quality issues
+- `features.py` standardizes comparable identity fields
+- `match.py` generates candidate matches and assigns confidence scores
+- `merge.py` creates a unified patient index from high-confidence matches
+- `report.py` produces a reconciliation summary and manual review queue
+- `pipeline.py` orchestrates the full flow end to end
+
+### Target SageMaker Workflow
+
+The same workflow can be deployed in Amazon SageMaker as a batch-oriented reconciliation system:
+
+1. Raw source extracts are stored in Amazon S3
+2. `SageMaker Processing` runs validation and normalization scripts
+3. A record linkage model is trained in `SageMaker Training`
+4. `SageMaker Batch Transform` scores incoming cross-source record pairs
+5. Merge logic produces unified records and a manual review queue
+6. Output datasets and reconciliation reports are written back to S3
+7. `SageMaker Experiments` tracks model versions and matching strategy comparisons
+
+### Why SageMaker
+
+SageMaker fits this project because it supports the exact parts of the reconciliation workflow that need to scale:
+
+- large-batch preprocessing for messy source system exports
+- repeatable model training for entity resolution
+- batch inference for new record reconciliation runs
+- experiment tracking to compare matching thresholds and model performance
+
+This makes the project feel like a real internal data platform workflow instead of a notebook-only demo.
+
+### Cost-Control Strategy
+
+The project is intentionally designed around batch jobs instead of always-on infrastructure.
+
+Cost-conscious choices:
+
+- use `SageMaker Processing` only when running a reconciliation job
+- use `SageMaker Batch Transform` instead of a persistent real-time endpoint
+- store inputs and outputs in S3 rather than keeping compute running
+- stop all notebook resources when not in use
+- compare experiments selectively to avoid unnecessary training runs
+
+### Architecture Diagram
+
+```mermaid
+flowchart LR
+    A["Raw Source Files\n(Patients A, Patients B, Appointments)"] --> B["Amazon S3"]
+    B --> C["SageMaker Processing\nValidation + Normalization"]
+    C --> D["Prepared Feature Sets"]
+    D --> E["SageMaker Training\nRecord Linkage Model"]
+    D --> F["SageMaker Batch Transform\nCross-Source Match Scoring"]
+    E --> F
+    F --> G["Merge Logic\nUnified Patient Index"]
+    F --> H["Manual Review Queue"]
+    C --> I["Data Quality Findings"]
+    G --> J["Reconciliation Report"]
+    G --> K["Streamlit Dashboard"]
+    H --> K
+    I --> K
+    J --> K
+```
 
 ## Resume Framing
 
